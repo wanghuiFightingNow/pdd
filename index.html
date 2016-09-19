@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>趣乐园</title>
+		<script type="text/javascript" src="library/zepto.js" ></script>
+		<link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="library/require.js" data-main="js/main" ></script>
+		<script>
+			var w = window.innerWidth / 10;
+				var html = document.querySelector("html");
+				html.style.fontSize = w + "px";
+
+            window.onresize = function () {
+                var w = window.innerWidth / 10;
+                var html = document.querySelector("html");
+                html.style.fontSize = w + "px";
+            }
+		</script>
+	</head>
+	<body>
+		<div id="box">
+		   <div class="main1">
+		   	<ul>
+		   		<li><img src="images/批次2.jpg"></li>
+		   		<li><img src="images/pic3.jpg"/></li>
+		   	</ul>
+		   </div>
+		   <div class="main2">
+		   	<h3>精彩推荐</h3>
+        </div>
+   <div class="main3">
+      <ul id="list1">
+
+      </ul>
+   </div>
+   </div>
+   <footer class="footer">
+   	 <ul>
+   	 	<a href="#page1">
+	   	 	<dl>
+	   	 		<dt><span class="iconfont">&#xe600;</span></dt>
+	   	 		<dd>首页</dd>
+	   	 	</dl>
+	   	</a>
+	   	<a href="#page2">
+	   	 	<dl>
+	   	 		<dt><span class="iconfont">&#xe603;</span></dt>
+	   	 		<dd>乐园</dd>
+	   	 	</dl>
+	   	</a>
+	   	<a href="#page3">
+	   	 	<dl>
+	   	 		<dt><span class="iconfont">&#xe602;</span></dt>
+	   	 		<dd>乐享卡</dd>
+	   	 	</dl>
+	   	</a>
+	   	<a href="#page4">
+	   	 	<dl>
+	   	 		<dt><span class="iconfont">&#xe601;</span></dt>
+	   	 		<dd>我的</dd>
+	   	 	</dl>
+   	 	</a>
+   	 </ul>
+   </footer>
+</body>
+    <script>
+       $('.footer ul a').tap(function() {
+            $(this).find('dl').css('color','red');
+            $(this).find('dl').parent().siblings().find('dl').css('color','#551a8b')
+       })
+
+    </script>
+</html>

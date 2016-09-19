@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1473850427_3285186.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1473850427_3285186.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1473850427_3285186.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1473850427_3285186.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1473850427_3285186.svg#iconfont') format('svg'); /* iOS 4.1- */
+
+}
+
+.iconfont{
+    font-family:'iconfont';
+}
+
+
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background: #eeeeee;
+}
+img{
+	border: none;
+}
+ html, body {
+        position: relative;
+        height: 100%;
+    }
+.swiper-container {
+        width: 100%;
+        height: 5.421875rem;
+        position:relative;
+}
+
+.swiper-slide img{
+    	width: 100%;
+    	height: 4.78125rem;
+ }
+ .swiper-pagination {
+    position:absolute;
+    left:0;
+    top:80%;
+ }
+ .swiper-pagination span{
+    width:15px;
+    height:15px;
+
+ }
+
+.main1{
+    	height: 4.96875rem;
+    	width: 100%;
+}
+.main1 ul{
+    	width: 100%;
+    	height: 100%;
+    	display: flex;
+    	justify-content: space-between;
+}
+.main1 ul li img{
+    	height: 4.96875rem;
+}
+.main2{
+    	height: 1.46875rem;
+
+}
+.main2 h3{
+    	width: 2.0645rem;
+    	height: 0.96875rem;
+    	font-size: 0.46875rem;
+    	text-align: center;
+    	line-height: 0.96875rem;
+    	color: #ff7071;
+    	border-bottom: 2px solid #f06d5b;
+    	border-top:  2px solid #f06d5b;
+    	margin: 0.25rem auto;
+ }
+    .main3{
+    	width: 100%;
+        margin-bottom:80px;
+    }
+    .main3 ul li img{
+       width: 100%;
+       height: 3.6085rem;
+    }
+
+    .footer{
+    	background: #eeeeee;
+    	width: 100%;
+    	height: 1.875rem;
+    	position: fixed;
+    	left: 0;
+    	bottom: 0;
+    }
+    .footer dl dd{
+    	font-size: 0.40625rem;
+    }
+    .footer ul{
+    	display: flex;
+    	justify-content: space-around;
+    }
+   /* .footer ul>a:hover dl{
+    	color:red;
+    }*/
+    .footer dl{
+    	text-align: center;
+    }
+.a{
+    border:1px solid black;
+}
